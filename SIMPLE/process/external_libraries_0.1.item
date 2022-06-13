@@ -2,6 +2,8 @@
   <context confirmationNeeded="false" name="Default"/>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
@@ -41,7 +43,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:XzuPJ3unqnE6tTnU9zM4itUFiYnhyo328mrDenjq"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:BwrvjvOtbeCtEPcYGavspCXTVvJfZvxTGXp7ccbn"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -76,7 +78,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:R3AA8OfFMktMVAfHTkWopijwdt7guIlycnWrOmKM"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:B7XMv+y8GAsIBF0yXttGJH9AgfIUXjqsgeQeSzAm"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -111,13 +113,77 @@
     <routinesParameter id="_js6u0OOIEeyr7pYYPud8gw" name="TalendStringUtil"/>
     <routinesParameter id="_jsreQOOIEeyr7pYYPud8gw" name="TalendString"/>
   </parameters>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_718937e2-91b3-4d58-a2e5-6f76d9eec406"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>seUn7S7DIIP0XxkSlkM+JMCyhPuo1SF5ICaRtdeqwilWN6KnYoeSvb0DyPdLxvgxwhP4/c+biBxb&#13;
-IwRRYJZvrw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_7ae0a9a0-ada0-48bb-9701-5026ea8cc3b7"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>cytlG+iZdLS9BAnhWcTMGhuvuSMDshnM53bZbU+TO46tzq7aBovMMrSP8j/gUIi4Pmg/9JTBvj/G&#13;
-hRDf/aVHiA==</DigestValue></Reference></SignedInfo><SignatureValue>Ti4P8Cy4r7IQh8oubKluWNiDtY6mZWXkXjMnx3i/L1MUZ0zB/d4IoYQ0us96ey09VGe3AuXrtd33&#13;
-LFKDq4RStcanMEAZLqSqfdfgpQxClD10RL0HrqFE6PAAH1ObO0do3412bryx4TWwV7bZcUIYUfU9&#13;
-0CJwpcBU/biUmkh0f6EFCIB/y9hf7+INruX7rrQIHlSulTjGbu/PIDME+ZOAwjLYFUVDval+sCwp&#13;
-edtLb1OFPUEgTZyKiuatIdGXwgV9MI/M13QTCrmbs1YFqmKKojorwTOYqdGc5i3Ut+MnFVboEm4j&#13;
-S/38OCKDl5UiMtVZpi4gpJ8xo1px1hlXxPD3ug==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_1"/>
+    <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
+    <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
+    <elementParameter field="TABLE" name="VALUES">
+      <elementValue elementRef="SCHEMA_COLUMN" value="series"/>
+      <elementValue elementRef="VALUE" value="&quot;Movie&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="category"/>
+      <elementValue elementRef="VALUE" value="&quot;Thriller&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="value"/>
+      <elementValue elementRef="VALUE" value="8"/>
+    </elementParameter>
+    <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
+    <elementParameter field="TABLE" name="INTABLE" show="false"/>
+    <elementParameter field="RADIO" name="USE_INLINECONTENT" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;;&quot;"/>
+    <elementParameter field="MEMO" name="INLINECONTENT" show="false" value=""/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFixedFlowInput_1">
+      <column comment="" key="false" length="-1" name="series" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="category" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBarChart" componentVersion="0.01" offsetLabelX="0" offsetLabelY="0" posX="576" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBarChart_1"/>
+    <elementParameter field="FILE" name="GENERATED_IMAGE_PATH" value="&quot;C:/Users/sonal/Desktop/Talend_v8.0/Talend-Studio-20211109_1610-V8.0.1/workspace/out.png&quot;"/>
+    <elementParameter field="TEXT" name="CHART_TITLE" value="&quot;Chart title&quot;"/>
+    <elementParameter field="CHECK" name="INCLUDE_LEGEND" value="true"/>
+    <elementParameter field="CHECK" name="3D_FORMAT" value="true"/>
+    <elementParameter field="TEXT" name="IMAGE_WIDTH" value="500"/>
+    <elementParameter field="TEXT" name="IMAGE_HEIGHT" value="500"/>
+    <elementParameter field="TEXT" name="CATEGORY_AXIS" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="VALUE_AXIS" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FORE_GROUND_ALPHA" value="0.8"/>
+    <elementParameter field="CLOSED_LIST" name="PLOT_ORIENTATION" value="org.jfree.chart.plot.PlotOrientation.VERTICAL"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBarChart_1">
+      <column defaultValue="" key="false" length="255" name="series" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="category" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="0" name="value" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="tBarChart_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="series"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="value"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="category"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_99266113-d78c-403d-a903-beb11203aec7"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>YtzzLLaojBPITQhJgt88jzK0Q3TJ0mhZDDl299GOGNxmITm+dfogzQiTy4OufQrmel4C/ZRvB1WT&#13;
+j4PXXANtlw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3e0e2c10-8c45-402b-af8d-7a0e683cfc38"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>wjge7zEvfjRQqfSGbdevcLAf+whkTzCf9rPWKxQESQdwwP79HmMkiBahlEcXEf2p0lieVjrJdOgU&#13;
+jir1qqaX2g==</DigestValue></Reference></SignedInfo><SignatureValue>Hky00E2GMdVraZFg1AGhoEg/LD2K+7FzRxsC/72Dp5b3M+2dt0K6hBHjujQpRAS3qOaOG9zJswMT&#13;
+nqZZ20C87sDQbXZ0wYken5vCdnrio/XIWGvIUx97Y1yp9UaXCV2Z4ZBdV7HhMCczDFmqyWxPMAgJ&#13;
+Sid1ZDhq1p3mrlTmWpsLW9evjX32Hz51zNLhmiM8zkjqOOSLDIwLc4/bgd8rw+D8x/IuKm2xH1sp&#13;
+aHcTmlQgXdDTHPQC5GD8KQQNyu5GvQ5IhK1Bz/erQRtFm3lQ8IqQd/nI6LkySeu6K4FvpAZUxvJR&#13;
+PaVlSbtkfse/4S2YL7vJfO34D4Trw/c7CIxLRw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -139,4 +205,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_7ae0a9a0-ada0-48bb-9701-5026ea8cc3b7" Target="#_718937e2-91b3-4d58-a2e5-6f76d9eec406"><Timestamp>2022-06-13 15:06:44</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3e0e2c10-8c45-402b-af8d-7a0e683cfc38" Target="#_99266113-d78c-403d-a903-beb11203aec7"><Timestamp>2022-06-13 15:24:34</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
