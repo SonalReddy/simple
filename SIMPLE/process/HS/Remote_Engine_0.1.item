@@ -48,7 +48,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:HGa4uiePAmhts1aLFQDL6ChJe2nrVjxIipynWIAP"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:Fo3P8k1bEpK7wnr1Q4tAUsiVEm4wMy3ukf9Cab29"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -83,7 +83,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:udduIvoYEPnaDpH/sr6o4QizA2t7kHzawyZMfm3Y"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:2O5b6La8Sz0OSt5VUYJXFCNQe7s4giw6k53rzoSX"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -133,7 +133,7 @@
     <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="OAUTH2_BEARER"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" show="false" value="&quot;username&quot;"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="enc:system.encryption.key.v1:F897YI6omJu3lUph1QTMmxRQRIIfKMcDD5uif/g6z6bCenloIl4="/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="enc:system.encryption.key.v1:06KFOxZcT18/kJK7REYYQTeATNW9H+FV92e7R8A5NE2piZybHXA="/>
     <elementParameter field="TEXT" name="AUTH_BEARER_TOKEN" value="&quot;oPQIKgF-RX-uhvfByX1cTmi7tfNzqiL-niB7WNWnTMGvOnIPamaDZunoIlWX3MHI&quot;"/>
     <elementParameter field="CHECK" name="NEED_AUTHORIZATION" show="false" value="false"/>
     <elementParameter field="TEXT" name="ROLE" show="false" value="&quot;&quot;"/>
@@ -160,7 +160,7 @@
     <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;127.0.0.1&quot;"/>
     <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="8080"/>
     <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:kP9Y5GkQJovcfo3UGbJJlLP0HYh1hSPUoAVD3A2B"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:D+J7AAQG2dRdr04bobJb46Sq7PzSZkzNiANRFpfZ"/>
     <elementParameter field="TEXT" name="ARRAY_KEYS" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="LABEL" value="RestClient_Workspace"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -491,7 +491,6 @@
   </node>
   <node componentName="tSystem" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1184" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSystem_1"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="ROOTDIR" value="false"/>
     <elementParameter field="DIRECTORY" name="DIRECTORY" show="false" value="&quot;/Users/sonalreddyanugu/Documents/Talend/Talend-Studio-20211109_1610-V8.0.1/Talend-Studio-macosx-cocoa.app/Contents/MacOS/workspace&quot;"/>
     <elementParameter field="RADIO" name="USE_SINGLE_COMMAND" value="true"/>
@@ -506,7 +505,6 @@
   </node>
   <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="896" posY="-64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_1"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
     <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
     <elementParameter field="TABLE" name="VALUES">
@@ -526,7 +524,6 @@
   </node>
   <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1024" posY="-64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_4"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
     <elementParameter field="RADIO" name="VERTICAL" value="false"/>
@@ -551,7 +548,6 @@
   </node>
   <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1184" posY="-64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_1"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;/opt/TalendRemoteEngine/etc/preauthorized.key.cfg&quot;"/>
@@ -591,6 +587,8 @@
     <elementParameter field="TABLE" name="VALUES">
       <elementValue elementRef="SCHEMA_COLUMN" value="name"/>
       <elementValue elementRef="VALUE" value="&quot;Remote_Engine &quot;+pid"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="log_file"/>
+      <elementValue elementRef="VALUE" value="&quot;Log_file&quot;+pid"/>
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
     <elementParameter field="TABLE" name="INTABLE" show="false"/>
@@ -601,6 +599,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFixedFlowInput_2">
       <column comment="" key="false" length="-1" name="name" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="log_file" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tFlowToIterate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="384" posY="-64">
@@ -794,6 +793,42 @@
       <column key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="896" posY="640">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_2"/>
+    <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;/opt/&quot;+((String)globalMap.get(&quot;row11.log_file&quot;))+&quot;.csv&quot;"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" show="false" value="true"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;,&quot;"/>
+    <elementParameter field="CHECK" name="APPEND" value="false"/>
+    <elementParameter field="CHECK" name="INCLUDEHEADER" value="false"/>
+    <elementParameter field="CHECK" name="COMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" show="false" value="&quot;&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" show="false" value="&quot;&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CREATE" value="true"/>
+    <elementParameter field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter field="TEXT" name="SPLIT_EVERY" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter field="TEXT" name="FLUSHONROW_NUM" show="false" value="1"/>
+    <elementParameter field="CHECK" name="ROW_MODE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+    <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="90"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileOutputDelimited_2">
+      <column key="false" length="0" name="moment" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column key="false" length="20" name="pid" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
   <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1216" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tWarn_4"/>
     <elementParameter field="TEXT" name="MESSAGE" value="&quot;Created Remote Engine is : &quot;+((String)globalMap.get(&quot;row15.Pairing_Status&quot;))"/>
@@ -882,39 +917,14 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFlowToIterate_5"/>
   </node>
-  <node componentName="tREST" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="416">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tREST_4"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="TEXT" name="URL" value="&quot;https://api.us.cloud.talend.com/tmc/v2.6/runtimes/remote-engine-clusters/&quot;+((String)globalMap.get(&quot;row18.Cluster_ID&quot;))+&quot;/engines/&quot;+((String)globalMap.get(&quot;row8.Remote_Engine_ID&quot;))"/>
-    <elementParameter field="CLOSED_LIST" name="METHOD" value="PUT"/>
-    <elementParameter field="TABLE" name="HEADERS">
-      <elementValue elementRef="NAME" value="&quot;Authorization&quot;"/>
-      <elementValue elementRef="VALUE" value="&quot;Bearer oPQIKgF-RX-uhvfByX1cTmi7tfNzqiL-niB7WNWnTMGvOnIPamaDZunoIlWX3MHI&quot;"/>
-      <elementValue elementRef="NAME" value="&quot;&quot;"/>
-      <elementValue elementRef="VALUE" value="&quot;&quot;"/>
-      <elementValue elementRef="NAME" value="&quot;&quot;"/>
-      <elementValue elementRef="VALUE" value="&quot;&quot;"/>
-    </elementParameter>
-    <elementParameter field="MEMO" name="BODY" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tREST_4">
-      <column key="false" length="0" name="Body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="ERROR_CODE" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
-    </metadata>
-  </node>
   <node componentName="tRESTClient" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="384">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRESTClient_2"/>
-    <elementParameter field="TEXT" name="URL" value="&quot;https://api.us.cloud.talend.com/tmc/v2.6/runtimes/remote-engine-clusters&quot;"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;https://api.us.cloud.talend.com/tmc/v2.6/runtimes/remote-engine-clusters/&quot;+((String)globalMap.get(&quot;row18.Cluster_ID&quot;))+&quot;/engines/&quot;+((String)globalMap.get(&quot;row8.Remote_Engine_ID&quot;))"/>
     <elementParameter field="TEXT" name="PATH" value="&quot;&quot;"/>
     <elementParameter field="CLOSED_LIST" name="METHOD" value="PUT"/>
     <elementParameter field="CLOSED_LIST" name="CONTENT_TYPE" value="application/json"/>
     <elementParameter field="CLOSED_LIST" name="ACCEPT_TYPE" value="*/*"/>
-    <elementParameter field="TABLE" name="QUERY">
-      <elementValue elementRef="NAME" value="&quot;clusterId&quot;"/>
-      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;row18.Cluster_ID&quot;))"/>
-      <elementValue elementRef="NAME" value="&quot;engineId&quot;"/>
-      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;row8.Remote_Engine_ID&quot;))"/>
-    </elementParameter>
+    <elementParameter field="TABLE" name="QUERY"/>
     <elementParameter field="CHECK" name="SERVICE_LOCATOR" value="false"/>
     <elementParameter field="TEXT" name="SERVICE_NAMESPACE" show="false" value="&quot;http://www.talend.org/rest/&quot;"/>
     <elementParameter field="TEXT" name="SERVICE_NAME" show="false" value="&quot;&quot;"/>
@@ -922,7 +932,7 @@
     <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="OAUTH2_BEARER"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" show="false" value="&quot;username&quot;"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="enc:system.encryption.key.v1:4LVrlUwvg/dImXKJ2oSEqP2RX6ZiULqeiIKHrV1MFVPke8nva/0="/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="enc:system.encryption.key.v1:3GDLR1xsVyMDTm6T52nOX4g7Ho/Nm1MQYwbv9mMBHdRKkikGwg0="/>
     <elementParameter field="TEXT" name="AUTH_BEARER_TOKEN" value="&quot;oPQIKgF-RX-uhvfByX1cTmi7tfNzqiL-niB7WNWnTMGvOnIPamaDZunoIlWX3MHI&quot;"/>
     <elementParameter field="CHECK" name="NEED_AUTHORIZATION" show="false" value="false"/>
     <elementParameter field="TEXT" name="ROLE" show="false" value="&quot;&quot;"/>
@@ -941,6 +951,8 @@
     <elementParameter field="TABLE" name="HEADERS">
       <elementValue elementRef="NAME" value="&quot;Authorization&quot;"/>
       <elementValue elementRef="VALUE" value="&quot;Bearer oPQIKgF-RX-uhvfByX1cTmi7tfNzqiL-niB7WNWnTMGvOnIPamaDZunoIlWX3MHI&quot;"/>
+      <elementValue elementRef="NAME" value="&quot;Content-Type&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;application/json&quot;"/>
     </elementParameter>
     <elementParameter field="TABLE" name="SERVICE_LOCATOR_CUSTOM_PROPERTIES" show="false"/>
     <elementParameter field="TABLE" name="SERVICE_ACTIVITY_MONITOR_CUSTOM_PROPERTIES" show="false"/>
@@ -952,7 +964,7 @@
     <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;127.0.0.1&quot;"/>
     <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="8080"/>
     <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:K7XZ8++XB31EwQXjCseinrMQE2KbUVKeWlXbXBFK"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:u/WGGca16AwyrlZfoF40gZZkF0AY3ChfX5l5sEAy"/>
     <elementParameter field="TEXT" name="ARRAY_KEYS" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="LABEL" value="RestClient_Workspace"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -970,7 +982,7 @@
       <column defaultValue="" key="false" length="1024" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="768" posY="384">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="384">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_7"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
@@ -1000,6 +1012,14 @@
       <column key="false" length="4048" name="string" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
+  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tWarn_5"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Successfully added Remote Engine to the Cluster&quot;"/>
+    <elementParameter field="TEXT" name="CODE" value="42"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="4"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tWarn_5"/>
+  </node>
   <connection connectorName="RESPONSE" label="row1" lineStyle="0" metaname="RESPONSE" offsetLabelX="0" offsetLabelY="0" source="tRESTClient_1" target="tExtractJSONFields_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
@@ -1014,7 +1034,6 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk3"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRESTClient_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tRESTClient_1" target="tFixedFlowInput_1">
-    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
   </connection>
   <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tExtractJSONFields_1" offsetLabelX="0" offsetLabelY="0" source="tExtractJSONFields_1" target="tFilterRow_11">
@@ -1102,19 +1121,21 @@
   </connection>
   <connection connectorName="FLOW" label="row9" lineStyle="0" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="tLogRow_4">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row9"/>
   </connection>
   <connection connectorName="FLOW" label="row10" lineStyle="0" metaname="tLogRow_4" offsetLabelX="0" offsetLabelY="0" source="tLogRow_4" target="tFileOutputDelimited_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row10"/>
   </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tFileOutputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileOutputDelimited_1" target="tSystem_1">
-    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
   </connection>
   <connection connectorName="FLOW" label="row11" lineStyle="0" metaname="tFixedFlowInput_2" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_2" target="tFlowToIterate_3">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="log_file"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row11"/>
   </connection>
@@ -1139,6 +1160,10 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row5"/>
   </connection>
+  <connection connectorName="FLOW" label="row20" lineStyle="0" metaname="tLogRow_1" offsetLabelX="0" offsetLabelY="0" source="tLogRow_1" target="tFileOutputDelimited_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row20"/>
+  </connection>
   <connection connectorName="FLOW" label="row16" lineStyle="0" metaname="tREST_3" offsetLabelX="0" offsetLabelY="0" source="tREST_3" target="tExtractJSONFields_4">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row16"/>
@@ -1157,6 +1182,9 @@
   <connection connectorName="RESPONSE" label="row19" lineStyle="0" metaname="RESPONSE" offsetLabelX="0" offsetLabelY="0" source="tRESTClient_2" target="tLogRow_7">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row19"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tRESTClient_2" offsetLabelX="0" offsetLabelY="0" source="tRESTClient_2" target="tWarn_5">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk11"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRESTClient_1"/>
@@ -1241,22 +1269,22 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tREST_4"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
-  </subjob>
-  <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRESTClient_2"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_7aa09a18-1c76-40e3-83a0-363c05bf571d"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Bu3YIMgScJGkjfiBM0dokqkpDEEHcwRInmoVTILQtTwr5dsyc3f7chMIJ2BPpiAWXQWff63Ezfj+&#13;
-G1D25m4pzQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_1865f769-fe23-470d-8399-b883dc913b9a"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ZF6lJWSfVMoPItcb7B2/lowJs4e6tuFyPVRqg/1euH+KWS0XJdlhymQEmCdtcEAfJZrxtBZhUyvE&#13;
-oVV4HD5IPA==</DigestValue></Reference></SignedInfo><SignatureValue>MmQ8I577/sbWd0/MprfruF866nsKTlCFRIbSeBScpWNyKwsXMvaIhWLgeVTXni6h6z+ooQM9F/XI&#13;
-2/lIb8Zs3dOP8RCUu3oCW/AflcWpKslSly6spyvfhzb4SaH+m1QhY7u36x9nkpOYRPa2Q/TI0Y05&#13;
-eZEVTFKV+J4E/FUOrkt01l4HtdwkRzdNZofGc/6bcne93138CNQCpalsJWvErJng6g+kJBJVq7/c&#13;
-X7YRs+QJmy2m3fu6jGXfrf4al6GgdkfyYYZ12s9Gsj+zHVXQSzEAIAIU5Gpqk0WdBlHr8O3lCIF9&#13;
-0mggGLm6cL+XBS0Egp2U7t65kDG3Q9CpcsLTtQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tWarn_5"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a375eaf7-976b-4d95-89c0-2eb5b2a45c32"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>nOb/sXhOb6NOcPv+/Gp3N8wWkv+d2tNR+8ltbKkCFPSOlrUiw05oEBRzojhVLTghesuymIs9lPse&#13;
+noV/8bla0g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_aef95c77-636e-4adf-8975-2b043c4a5eae"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>AWbStthyItcRqpiyk7jlaNjnUsqQALPHwhDj1vBp0FfePjvliBxRKwP/siCxEgVZcmuWaZcdpKrz&#13;
+VRqsNGQmUg==</DigestValue></Reference></SignedInfo><SignatureValue>gPioup+FdQn026A1aKDBGNOQMNOz8dWN53u+UQim8pKhY79Q89o7SfUrtOcKBtxiLk216nVJpvKr&#13;
+W3iP6aO2PU40OZ7e+M4bTYNc8zOdaZYJNUyapstWwWILF/MdcwQCoqZVWsJfXgvHUdft4WJHa27E&#13;
+XB8JBiXQeyWDPE/V/A8bCFodPbLbRmmzKaRTwkDI+YAVd0iMff5wWajzosHTwsMvHX3af92xJj3r&#13;
+o0b/PlIIlqvJGCQU992kfV0OQE5+Y9vgccFpneoGAqG61bVMxof+fZaAE34gZpWce9/StNI4wTVp&#13;
+QCA+Eoxzo2wpmNnDuBOFYvaT2+pSmf/jXE3NjA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1278,4 +1306,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_1865f769-fe23-470d-8399-b883dc913b9a" Target="#_7aa09a18-1c76-40e3-83a0-363c05bf571d"><Timestamp>2022-08-11 20:33:43</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_aef95c77-636e-4adf-8975-2b043c4a5eae" Target="#_a375eaf7-976b-4d95-89c0-2eb5b2a45c32"><Timestamp>2022-08-12 04:52:19</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
