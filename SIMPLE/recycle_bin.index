@@ -1,12 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
-  <deletedFolders>Structures/EDI/27914155330</deletedFolders>
-  <deletedFolders>Structures/EDI/EDI837</deletedFolders>
-  <deletedFolders>process/Bhuvana</deletedFolders>
-  <deletedFolders>process/Samples</deletedFolders>
-  <deletedFolders>process/Samples/temp</deletedFolders>
-  <deletedFolders>process/Samples/temp/temp</deletedFolders>
-  <deletedItems id="_Gb-dMOB7Eey06qJYHg1IEw" path="Bhuvana" type="PROCESS"/>
-  <deletedItems id="_exvBQO3bEeyClJGx4IFXAQ" path="Bhuvana" type="PROCESS"/>
-  <deletedItems id="_7Ex1MDjmEeyqQ6jGyAxxuQ" path="Samples/temp/temp" type="PROCESS"/>
-</recyclebin:RecycleBin>
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin"/>
